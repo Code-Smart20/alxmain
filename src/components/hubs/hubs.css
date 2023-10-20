@@ -1,0 +1,10 @@
+.hubs__container{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap:10% ;
+}
+
+.hubs__container h2{
+    color: green;
+}
+

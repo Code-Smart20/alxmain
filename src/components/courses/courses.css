@@ -1,0 +1,39 @@
+
+
+.courses__container{
+    background-color: var(--color-bg-variant);
+}
+
+.courses__container h5{
+    color: black;
+    border-bottom: 2px solid green;
+}
+
+.courses__cards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:15px; 
+    padding: 5px;
+}
+
+
+
+.course__card{
+    height:fit-content;
+    background-color:white;
+    padding: 15px;
+    border-radius: 10px;
+    border: transparent;
+}
+.course__linkImg{
+    height: 15rem;
+    width: 100%;
+    border: 2px solid green;
+    
+}
+
+.course__links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
