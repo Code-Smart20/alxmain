@@ -4,3 +4,13 @@
     gap: 1.5rem;
     align-items: flex-start;
 }
+
+.learners__container h2{
+    text-align: left;
+}
+
+.learners__container h5{
+    margin: 1.5rem 0;
+    font-weight: 600;
+    color:var(--color-font-h2);
+}

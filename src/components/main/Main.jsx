@@ -9,6 +9,11 @@ const Main = () => {
                     <h1>Power Your<br/> <span>Future</span> In Tech</h1>
                     <h5>Gain the digital career-ready skills<br/> to transform your future</h5>
                 </div>
+                
+               <div className="masterlogo">
+                <img src="https://www.alxafrica.com/wp-content/themes/ALX/images/mask/logo.png" alt="logo" />
+                </div>
+            
             </div>
     
     

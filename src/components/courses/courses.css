@@ -1,12 +1,20 @@
 
-
 .courses__container{
     background-color: var(--color-bg-variant);
+    position: relative;
+}
+
+.courses__container::after{
+    height: 12rem;
+    width: 4rem;
+    background-color: red;
+    position: absolute;
+    z-index: 5;
 }
 
 .courses__container h5{
     color: black;
-    border-bottom: 2px solid green;
+    text-align: center;
 }
 
 .courses__cards-container{
@@ -16,20 +24,38 @@
     padding: 5px;
 }
 
-
-
 .course__card{
-    height:fit-content;
+    height:450px;
+    min-height: 300px;
     background-color:white;
     padding: 15px;
     border-radius: 10px;
     border: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: var(--transition);
+
+}
+
+.course__card:hover{
+    box-shadow: 8px 8px 0px rgba(0,0,0,0.6);
+}
+
+.course__card p{
+    margin: 0;
+    padding: 0;
+}
+
+.course__card h5{
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .course__linkImg{
-    height: 15rem;
+    height: 50%;
     width: 100%;
-    border: 2px solid green;
-    
+    border-radius: inherit;
 }
 
 .course__links{

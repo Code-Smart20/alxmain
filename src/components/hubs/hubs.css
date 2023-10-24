@@ -1,10 +1,45 @@
+.hubs{
+    background-color: var(--color-bg-variant);   
+}
+
 .hubs__container{
     display: grid;
-    grid-template-columns: 40% 50%;
-    gap:10% ;
+    grid-template-columns: 45% 50%;
+    gap:5% ;
+   
+}
+
+.hubs__locations{
+    position: relative;
+}
+
+.hub{
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+.hub h3{
+    background: black;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.hub__img{
+    width: 5rem;
+    object-fit: contain;
+    padding: 5px;
+    background-color: red;
+}
+
+.hubs__container h5{
+    text-align: left;
+    color: var(--color-primary-variant);
+    font-weight: 700;
+    padding: 0;
 }
 
 .hubs__container h2{
-    color: green;
+    text-align: left;
+    font-weight: 550;
 }
-

@@ -6,12 +6,6 @@ export const faqs = [
         icon: 5
     },
     {
-        id: 1,
-        question: "how can i get in touurchhgfhdjsk",
-        answer: "cal us on phone",
-        icon: 5
-    },
-    {
         id: 2,
         question: "how can i get in touurchhgfhdjsk",
         answer: "cal us on phone",
@@ -43,6 +37,12 @@ export const faqs = [
     },
     {
         id: 7,
+        question: "how can i get in touurchhgfhdjsk",
+        answer: "cal us on phone",
+        icon: 5
+    },
+    {
+        id: 8,
         question: "how can i get in touurchhgfhdjsk",
         answer: "cal us on phone",
         icon: 5

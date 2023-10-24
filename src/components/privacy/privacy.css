@@ -1,0 +1,22 @@
+.privacy{
+    height: 5rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    background: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.privacy__container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    
+        
+}

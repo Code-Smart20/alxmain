@@ -1,5 +1,10 @@
+.difference{
+    background-color: var(--color-bg-variant);
+}
+
 .difference__container{
     display: grid;
     grid-template-columns: 48% 48%;
     gap: 4%;
+    background-color: var(--color-bg-variant);
 }

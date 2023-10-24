@@ -1,6 +1,7 @@
 import React from 'react'
 import "./founders.css"
 
+
 const Founders = () => {
   return (
       <section className="founders__container container">
@@ -14,68 +15,9 @@ const Founders = () => {
           
           <div className="founders__proofs">
               <div className="proof">
-                  <h1>icon</h1> 
-                  
-                  <div className="proof__description">
-                      <div className='proofs'>
-                          <h2>
-                          Future Proof
-                      </h2>
-                      <p>
-                          Focused on the high paying, in-demand fields of today and tomorrow.
-                      </p> 
-                      </div>
-                      <div className='proofs'>
-                          <h2>
-                          Future Proof
-                      </h2>
-                      <p>
-                          Focused on the high paying, in-demand fields of today and tomorrow.
-                      </p> 
-                      </div>
-                      <div className='proofs'>
-                          <h2>
-                          Future Proof
-                      </h2>
-                      <p>
-                          Focused on the high paying, in-demand fields of today and tomorrow.
-                      </p> 
-                      </div>
-                      <div className='proofs'>
-                          <h2>
-                          Future Proof
-                      </h2>
-                      <p>
-                          Focused on the high paying, in-demand fields of today and tomorrow.
-                      </p> 
-                      </div>
-                      <div className='proofs'>
-                          <h2>
-                          Future Proof
-                      </h2>
-                      <p>
-                          Focused on the high paying, in-demand fields of today and tomorrow.
-                      </p> 
-                      </div>
-                      <div className='proofs'>
-                          <h2>
-                          Future Proof
-                      </h2>
-                      <p>
-                          Focused on the high paying, in-demand fields of today and tomorrow.
-                      </p> 
-                      </div>
-                      <div className='proofs'>
-                          <h2>
-                          Future Proof
-                      </h2>
-                      <p>
-                          Focused on the high paying, in-demand fields of today and tomorrow.
-                      </p> 
-                      </div>
-                     
-                  </div>
+                 
               </div>
+                
           </div>
 
       </section>

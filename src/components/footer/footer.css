@@ -1,0 +1,13 @@
+footer{
+    background-color: red;
+    padding: 4rem 0;
+    position:absolute;
+    width: 100%;
+    bottom: 5rem;
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 30%;
+    gap: 1.5%;
+}

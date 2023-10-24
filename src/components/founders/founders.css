@@ -1,4 +1,6 @@
-
+.founders__container h5,p{
+    text-align: center;
+}
 
 .proof__description{
     display: grid;

@@ -1,0 +1,39 @@
+.achiever{
+   background-color: var(--color-bg-variant);  
+}
+
+
+.achievers__container{
+    display: grid;
+    grid:30% 50% ;
+    gap: 15%;
+    display: flex;
+   
+}
+
+.achiever__desc{
+    position: relative;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 2rem;
+    height: 20rem;
+}
+
+.achiever p{
+    margin:0;
+    padding:0;
+}
+
+.achiever .avatar__container{
+    position: absolute;
+    bottom: -15px;
+    right: -30px;
+    width: 10rem;
+    height: 10rem;
+    background-color: yellow;
+}
+
+.achiever .avatar{
+   height: 8rem;
+   width: 8rem;
+}
