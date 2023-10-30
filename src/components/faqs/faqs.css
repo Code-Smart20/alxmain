@@ -1,0 +1,13 @@
+.faq{
+   padding-bottom: 4rem;
+   background-color: aqua;
+}
+
+ .faqs__items{
+    padding: 4rem;
+    margin: 0 auto;
+    max-width: 40%;
+    border: 2px solid red;
+    background-color:white;
+}
+

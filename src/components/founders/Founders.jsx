@@ -1,5 +1,6 @@
 import React from 'react'
 import "./founders.css"
+import { founderData } from './found'
 
 
 const Founders = () => {
@@ -15,6 +16,20 @@ const Founders = () => {
           
           <div className="founders__proofs">
               <div className="proof">
+                  {
+                      founderData.map((item) => (
+        
+                          <div key={item.id} className='proof__item'>
+                              <h2>{item.icon}</h2>
+
+                              <div className="proof__description">
+                                  <h2>{item.title}</h2>
+
+                                  <p>{item.desc}</p>
+                              </div>
+                          </div>
+                      ))
+                  }
                  
               </div>
                 

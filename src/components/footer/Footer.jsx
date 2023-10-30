@@ -2,6 +2,7 @@ import React from 'react'
 import './footer.css'
 import { programmes,links,tech} from './programmmes'
 
+
 const Footer = () => {
   return (
       <footer className='footer'>
@@ -11,7 +12,7 @@ const Footer = () => {
                    
                   <div className="footer__programmes-items">
                       {programmes.map((item) => (
-                          <h4>{item.prog}</h4>
+                          <h4 key={item.Id} >{item.text}</h4>
                      ))} 
                   </div>
               </div>
@@ -22,7 +23,7 @@ const Footer = () => {
                   <div className="footer__Africa-links">
                       {
                           links.map((item) => (
-                              <h4>{item.text}</h4>
+                              <h4 key={item.id}>{item.text}</h4>
                           ))
                      } 
                   </div> 
@@ -34,7 +35,7 @@ const Footer = () => {
                   <div className='footer__admissions-tech'>
                       {
                           tech.map((route) => (
-                              <h4>{route.text}</h4> 
+                              <h4 key={route.id}>{route.text}</h4> 
                         ))
                       }
                   </div>

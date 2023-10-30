@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 .app{
   position: relative;
 }
@@ -13,16 +14,6 @@
   list-style: none;
   text-decoration: none;
 }
-
-/**
---background-color: #fff;
---error-code-color: var(--google-gray-700);
---google-blue-100: rgb(210, 227, 252);
---google-blue-300: rgb(138, 180, 248);
---google-blue-600: rgb(26, 115, 232);
---google-bl
-*/
-
 
 /*** global css variables ******/
 :root {
@@ -48,7 +39,6 @@
 }
 
 body {
-
   font-family: 'Montserrat', sans-serif;
   background: var(--color-bg-main);
   color: var(--color-white);
@@ -56,7 +46,6 @@ body {
 }
 
 /*** general container class ***/
-
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;

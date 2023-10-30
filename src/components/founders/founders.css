@@ -6,3 +6,23 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
+
+.proof{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5%;
+   
+}
+
+.proof__item{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content:space-between;
+    gap: 5%;
+}
+
+.proof__description{
+display: flex;
+flex-direction: column;
+}

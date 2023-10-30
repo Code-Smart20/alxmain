@@ -1,5 +1,9 @@
 import React, { useState } from 'react'
 import "./header.css"
+import { NavLink } from 'react-router-dom'
+
+
+
 
 
 const Header = () => {
@@ -17,35 +21,59 @@ const Header = () => {
 
     window.addEventListener("scroll", handleNavChange);
 
+
+    //  showing login and signup dropdowns onclick of the button
+    const [nav, showNav] = useState(false);
+    
+    const handleNav = () => {
+        showNav(!nav)
+    }
+
+    const closeNav = () => {
+        showNav(!nav)
+    }
+    
+
+    
+
   return (
       <div className={`header ${navColor && "headerbg"}`}>
           <div className="header__container container">
+              
               <div className="header__container-img">
                   <img className='headerlogo' src="https://www.alxafrica.com/wp-content/uploads/2022/12/logo-white.svg" alt="" />
               </div>
+
               <ul className="header__container-navWrapper">
                   <li className="header__container-navitem">
-                    <p>About<span></span></p>  
-                 </li>
+                    <p><NavLink to="/about">About<span></span></NavLink></p>  
+                  </li>
+                  
                   <li className="header__container-navitem">
-                      <p>Programmes<span></span></p>
-                 </li>
+                     <p><NavLink to="/programmes">Programmes<span></span></NavLink></p> 
+                  </li>
+                  
+                  
                   <li className="header__container-navitem">
-                      <p>Admissions<span></span></p>
+                      <p><NavLink to="/admissions">Admissions<span></span></NavLink></p> 
                  </li>
+
+                   <li className="header__container-navitem">
+                     <p><NavLink to="/journey">Alx Journey<span></span></NavLink></p> 
+                  </li>
+                 
                   <li className="header__container-navitem">
-                     <p>The Alx Journey</p> 
-                 </li>
-                  <li className="header__container-navitem">
-                      <p>WomenX And Tech<span></span></p>
+                      <p><NavLink to="/women_&_tech">Women & Tech<span></span></NavLink></p> 
                   </li> 
                   <li className="header__container-navitem">
-                      <p>News<span></span></p>
+                      <p><NavLink to="/news">News<span></span></NavLink></p> 
                   </li> 
                   <li className="header__container-navitem">
-                      <p>Our Blog<span></span></p>
+                      <p><NavLink to="/blog">Our Blog<span></span></NavLink></p> 
                   </li> 
               </ul>
+
+             
           </div>   
     </div>
   )
